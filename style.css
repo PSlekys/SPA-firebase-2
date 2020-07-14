@@ -1,0 +1,52 @@
+header {
+  background: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
+
+main {
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form > input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.success {
+  background: rgb(51, 128, 57);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.error {
+  background: rgb(145, 40, 13);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button.loading {
+  background: red;
+}
